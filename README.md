@@ -41,4 +41,4 @@ _/Users/michel.teixeira/Sites/todo-react/backend/src/config/server.js_
 
 # Testes API com postman
 
-Naa pasta postman-tests exite um arquivo **todo-react.postman_collection.json** que pode ser importado e usado para testes.
+Naa pasta **_postman-tests_** exite um arquivo **_todo-react.postman_collection.json_** que pode ser importado e usado para testes.
