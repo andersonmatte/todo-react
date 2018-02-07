@@ -36,7 +36,7 @@ _/Users/michel.teixeira/Sites/todo-react/backend/src/config/server.js_
 
 - Parando serviço:
 
-`/node_modules/.bin/pm2 stop todo-react`
+`./node_modules/.bin/pm2 stop todo-react`
 
 
 # Testes API com postman
