@@ -1,9 +1,22 @@
 # todo-react
+
 App de TodoList com React
 
-# Instalando dependencias 
 
-Na pasta raiz execute `npm i`
+# Objetivos 
+
+- [x] Criação de backend / api para CRUD de API
+- [ ] Criiação de frontend
+- [ ] Refactory para redux
+- [ ] Deploy do app no serviço da [Heroku](https://www.heroku.com)
+- [ ] Geração de Docker compose com todo o projeto para desenvolvimento
+
+
+# Instalando dependências pra desenvolvimento
+
+Na pasta raiz execute o comando:
+
+`npm i`
 
 # Frontend
 - Em desenvolvimento
