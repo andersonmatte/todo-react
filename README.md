@@ -10,6 +10,8 @@ Na pasta raiz execute `npm i`
 
 # Backend
 
+:heavy_exclamation_mark: - É necessário estar com o serviço de **mongod** ativo :heavy_exclamation_mark:
+
 ## Levantando servidor backend
 
 ## servidor dsv - nodemon
@@ -31,3 +33,8 @@ Na pasta raiz execute `npm i`
 - Parando serviço:
 
 `/node_modules/.bin/pm2 stop todo-react`
+
+
+# Testes API com postman
+
+Naa pasta postman-tests exite um arquivo **todo-react.postman_collection.json** que pode ser importado e usado para testes.
