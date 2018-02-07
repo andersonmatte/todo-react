@@ -10,9 +10,13 @@ Na pasta raiz execute `npm i`
 
 # Backend
 
-:heavy_exclamation_mark: - É necessário estar com o serviço de **mongod** ativo :heavy_exclamation_mark:
+:heavy_exclamation_mark: É necessário estar com o serviço de **mongod** ativo :heavy_exclamation_mark:
 
 ## Levantando servidor backend
+
+Por padrão o servidor backend roda na porta **3003** para alterar edite o arquivo: 
+
+_/Users/michel.teixeira/Sites/todo-react/backend/src/config/server.js_
 
 ## servidor dsv - nodemon
 `cd backend/ && npm run dev`
