@@ -1,0 +1,30 @@
+version: '3'
+services:
+  db:
+    container_name: mongo-todo-react
+    image: mongo:3.4
+    hostname: mongo
+    ports:
+      - 27017:27017
+  backend:
+    container_name: backend-todo-react
+    image: node:8.1
+    hostname: backend
+    environment:
+      WAIT_HOSTS: mongo:27017
+    volumes:
+      - ./backend:/backend
+    ports:
+      - 3003:3003
+    command: bash -c "cd /backend && npm i && npm run dev"
+  frontend:
+    container_name: frontend-todo-react
+    image: node:8.1
+    hostname: frontend-todo-react
+    environment:
+      WAIT_HOSTS: mongo:27017, backend:3003
+    volumes:
+      - ./frontend-sem-redux:/frontend-sem-redux
+    ports:
+      - 8484:8484
+    command: bash -c "cd /frontend-sem-redux && npm i && npm run dev"  
