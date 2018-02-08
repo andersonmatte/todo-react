@@ -60,3 +60,23 @@ http://0.0.0.0:8484
 # Testes API com postman
 
 Naa pasta **_postman-tests_** exite um arquivo **_todo-react.postman_collection.json_** que pode ser importado e usado para testes.
+
+# Usando o Docker
+
+Parto do pressuposto que já existe em sua maquina o docker instalado
+Caso não ... acesse o site e instale conforme seu ambiente: [Docker](https://store.docker.com/search?type=edition&offering=community)
+
+Após clonar o projeto na sua maquina acesse a pasta 
+
+`cd todo-react/`
+
+`docker-compose up`
+
+## Pode ser que em ambientes linux necessite da instalação do _docker_ compose e rodar como _sudo docker-compose up_
+
+Aguarde a instalação das imagens e o docker iniciar as mesmas (a primeira vez demora mesmo pois é feito o download e pull das imagens)
+
+Após receber no terminal a mensagem **webpack: Compiled successfully.** 
+
+basta acessar o navegador no seguinte link: http://localhost:8383/#/todos
+
