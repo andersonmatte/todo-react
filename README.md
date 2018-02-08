@@ -6,10 +6,10 @@ App de TodoList com React
 # Objetivos 
 
 - [x] Criação de backend / api para CRUD de API
-- [ ] Criiação de frontend
+- [x] Criiação de frontend
 - [ ] Refactory para redux
 - [ ] Deploy do app no serviço da [Heroku](https://www.heroku.com)
-- [ ] Geração de Docker compose com todo o projeto para desenvolvimento
+- [x] Geração de Docker compose com todo o projeto para desenvolvimento
 
 
 # Instalando dependências pra desenvolvimento
@@ -17,9 +17,6 @@ App de TodoList com React
 Na pasta raiz execute o comando:
 
 `npm i`
-
-# Frontend
-- Em desenvolvimento
 
 # Backend
 
@@ -51,6 +48,14 @@ _/Users/michel.teixeira/Sites/todo-react/backend/src/config/server.js_
 
 `./node_modules/.bin/pm2 stop todo-react`
 
+
+# Frontend
+
+## Sem Redux
+
+`cd frontend-sem-redux/ && npm run dev`
+
+http://0.0.0.0:8484
 
 # Testes API com postman
 
