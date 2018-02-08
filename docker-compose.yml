@@ -27,4 +27,15 @@ services:
       - ./frontend-sem-redux:/frontend-sem-redux
     ports:
       - 8484:8484
-    command: bash -c "cd /frontend-sem-redux && npm i && npm run dev"  
+    command: bash -c "cd /frontend-sem-redux && npm i && npm run dev"
+  frontend-redux:
+    container_name: frontend-redux-todo-react
+    image: node:8.1
+    hostname: frontend-redux-todo-react
+    environment:
+      WAIT_HOSTS: mongo:27017, backend:3003
+    volumes:
+      - ./frontend-redux:/frontend-redux
+    ports:
+      - 8585:8585
+    command: bash -c "cd /frontend-redux && npm i && npm run dev"  
