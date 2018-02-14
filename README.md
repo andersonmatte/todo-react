@@ -16,6 +16,9 @@ App de TodoList com React
 - [x] Geração de Docker compose com todo o projeto para desenvolvimento
 - [ ] Backend com Swift Vapor
 - [ ] Backend com Kotlin - por [Anderson Matte](https://github.com/andersonmatte) 
+- [ ] App com Swift (MVC, MVVM, VIPER)
+- [ ] App com Kotlin
+- [ ] App com React Native
 
 
 # Instalando dependências pra desenvolvimento
