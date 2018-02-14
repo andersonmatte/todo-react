@@ -28,6 +28,8 @@ services:
     ports:
       - 8484:8484
     command: bash -c "cd /frontend-sem-redux && npm i && npm run dev"
+    expose: 
+      - '8484'
   frontend-redux:
     container_name: frontend-redux-todo-react
     image: node:8.1
