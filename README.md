@@ -11,9 +11,11 @@ App de TodoList com React
 
 - [x] Criação de backend / api para CRUD de API
 - [x] Criiação de frontend
-- [ ] Refactory para redux
+- [x] Refactory para redux
 - [ ] Deploy do app no serviço da [Heroku](https://www.heroku.com)
 - [x] Geração de Docker compose com todo o projeto para desenvolvimento
+- [ ] Backend com Swift Vapor
+- [ ] Backend com Kotlin - por [Anderson Matte](https://github.com/andersonmatte) 
 
 
 # Instalando dependências pra desenvolvimento
@@ -57,9 +59,23 @@ _/Users/michel.teixeira/Sites/todo-react/backend/src/config/server.js_
 
 ## Sem Redux
 
+- Sem docker
+
 `cd frontend-sem-redux/ && npm run dev`
 
+- Com docker apenas acesse: 
+
 http://0.0.0.0:8484
+
+## Com Redux
+
+- Sem docker
+
+`cd frontend-redux/ && npm run dev`
+
+- Com docker apenas acesse: 
+
+http://0.0.0.0:8585
 
 # Testes API com postman
 
@@ -91,7 +107,7 @@ basta acessar o navegador no seguinte link: http://localhost:8383/#/todos
 # Issues conhecidas
 
 - Docker reclama da versão do arquivo docker-compose.yml:
- - Cerifique a versão do seu docker com `docker version` depois verifique neste link [Docker compose Docs](https://docs.docker.com/compose/compose-file/) a verso que seu docker suporte do compose. 
+ - Cerifique a versão do seu docker com `docker version` depois verifique neste link [Docker compose Docs](https://docs.docker.com/compose/compose-file/) a versão que seu docker suporte do compose. 
  Como estou em um Mac e com a ultima versão do Docker a versão ficou a 3 mesmo, mas em problemas que já vi de docker 17.12 em um ubuntu 16.04 LTS bastou alterar para '2.0' que o problema foi resolvido.
 
 - Imagem do mongo não levanta:
