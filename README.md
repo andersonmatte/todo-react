@@ -11,9 +11,11 @@ App de TodoList com React
 
 - [x] Criação de backend / api para CRUD de API
 - [x] Criiação de frontend
-- [ ] Refactory para redux
+- [x] Refactory para redux
 - [ ] Deploy do app no serviço da [Heroku](https://www.heroku.com)
 - [x] Geração de Docker compose com todo o projeto para desenvolvimento
+- [ ] Backend com Swift Vapor
+- [ ] Backend com Kotlin - por [Anderson Matte](https://github.com/andersonmatte) 
 
 
 # Instalando dependências pra desenvolvimento
@@ -57,9 +59,23 @@ _/Users/michel.teixeira/Sites/todo-react/backend/src/config/server.js_
 
 ## Sem Redux
 
+- Sem docker
+
 `cd frontend-sem-redux/ && npm run dev`
 
+- Com docker apenas acesse: 
+
 http://0.0.0.0:8484
+
+## Com Redux
+
+- Sem docker
+
+`cd frontend-redux/ && npm run dev`
+
+- Com docker apenas acesse: 
+
+http://0.0.0.0:8585
 
 # Testes API com postman
 
