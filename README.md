@@ -55,6 +55,34 @@ _/Users/michel.teixeira/Sites/todo-react/backend/src/config/server.js_
 `./node_modules/.bin/pm2 stop todo-react`
 
 
+# backend-swift
+
+<p align="center">
+  <img src="https://avatars1.githubusercontent.com/u/17364220?s=200&v=4">
+</p>
+
+
+## No Mac
+
+Execute o seguinte comando: 
+
+`cd backend-swift/ && vapor xcode`
+
+Aguarde o terminal:
+
+`Generating Xcode Project [Done]
+Select the `Run` scheme to run.
+Open Xcode project?
+y/n> Y`
+
+Altere seu target para Run e deixe o device em MyMac
+
+Command + B e depois Command + R 
+
+aguarde o retorno do xcode no console `Starting server on 0.0.0.0:3004`
+
+Pronto seu servidor backend com o Swift e Vapor está pronto para uso.
+
 # Frontend
 
 ## Sem Redux
