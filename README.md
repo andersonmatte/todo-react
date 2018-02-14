@@ -57,9 +57,14 @@ _/Users/michel.teixeira/Sites/todo-react/backend/src/config/server.js_
 
 # backend-swift
 
+## Necessário ter o Vapor instalado em sua maquina
+
 <p align="center">
   <img src="https://avatars1.githubusercontent.com/u/17364220?s=200&v=4">
 </p>
+
+###  [Instalando Vapor](https://docs.vapor.codes/2.0/getting-started/install-on-macos/)
+
 
 
 ## No Mac
