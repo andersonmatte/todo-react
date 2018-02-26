@@ -12,19 +12,19 @@ Kotlin, Spring Tool Suite, Spring Boot, MongoDB, Postman.
 
 Baixar o Spring Tool Suite  https://spring.io/tools
 
-![alt text](/imagens/SprinToolSuite.png)
+![alt text](/backend-kotlin/imagens/SprinToolSuite.png)
 
 Baixar os fontes do projeto e importar para a IDE Spring Tool Suite, a estrutura do projeto ficará assim:
 
-![alt text](/imagens/EstruturaDoProjeto.png)
+![alt text](/backend-kotlin/imagens/EstruturaDoProjeto.png)
 
 Após a configuração do MongoDB, o arquivo aplication.properties devereá ser configurado da seguinte forma:
 
-![alt text](/imagens/AplicationProperties.png)
+![alt text](/backend-kotlin/imagens/AplicationProperties.png)
 
 Agora já será possível startar a aplicação Spring Boot!
 
-![alt text](/imagens/SpringBoot.png)
+![alt text](/backend-kotlin/imagens/SpringBoot.png)
 
 ## Utilizando o Web Service com Postman
 
@@ -32,16 +32,16 @@ Acessar o Postman e executar os Métodos de CRUD.
 
 # Get
 
-![alt text](/imagens/Get.png)
+![alt text](/backend-kotlin/imagens/Get.png)
 
 # Post
 
-![alt text](/imagens/Post.png)
+![alt text](/backend-kotlin/imagens/Post.png)
 
 # Put
 
-![alt text](/imagens/Put.png)
+![alt text](/backend-kotlin/imagens/Put.png)
 
 # Delete
 
-![alt text](/imagens/Delete.png)
+![alt text](/backend-kotlin/imagens/Delete.png)
