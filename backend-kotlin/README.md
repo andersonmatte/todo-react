@@ -1,7 +1,7 @@
 ## Web Service Rest em Kotlin com MongoDB
 
 
-![alt text](/imagens/Kotlin.png)
+![alt text](/backend-kotlin/imagens/Kotlin.png)
 
 
 Tecnologias e ferramentas utilizadas:  
